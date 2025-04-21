@@ -121,16 +121,18 @@ body{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin:10px 3%;
+	margin:0px 3%;
+	align-items: center;
 }
 
 .logo a{
 	display: block;
 }
 
+
 .menu-list ul li{
 	display: inline-block;
-	margin-left: 1.25rem;
+	margin-left: 2.4rem;
 }
 
 .menu-list ul li a{
@@ -138,7 +140,6 @@ body{
 	font-size: 0.9333333333333333em;
 	color:#fff;
 	font-weight: 500;
-	padding:1.625rem 0;
 }
 
 
@@ -264,10 +265,10 @@ body{
 /* OUR ARCHİVES */
 .our-archiments{
 	 background-color: #4b2d7f;
-	 padding: 2.5rem 0;
+	 padding: 5rem 0;
 	 display: flex;
 	 flex-direction: row;
-	 flex:1 1 1 auto
+	 flex:1 1 auto;
 }
 .our-arch-box{
 	text-align: center;
@@ -277,14 +278,14 @@ body{
 }
 
 .our-ach-icons i{
-	font-size: 2.4em;
+	font-size: 2.6em;
 	color: #fff;
 	font-weight: 700;
 }
 .our-arch-box span{
 	display: inline-block;
 	margin:0.3rem 0;
-	font-size: 2.1em;
+	font-size: 2.4em;
 	color:#ffff;
 	font-weight: 700;
 }
@@ -297,7 +298,7 @@ body{
 
 .our-arch-box p{
 	font-size: 0.9em;
-	color:grey;
+	color:#a49aba;
 	font-weight: 400;
 	margin:1.5rem 0;
 	padding:0px 2.4rem
