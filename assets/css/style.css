@@ -86,4 +86,56 @@
 	clear: both;
 }
 
+.position-relative{
+	position: relative;
+}
 
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.5;
+	color: #000
+}
+
+:root{
+  --ping-bg:#f42267;
+  --purple-bg:#68328e;
+  --purple-bg-2:#4b2d7f
+}
+
+.header-area{
+	background-image: url(../img/header-bg.png);
+	background-position: top left;
+	background-size: cover;	
+	padding:1.25rem 0px
+}
+
+.header-top-menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.logo a{
+	display: block;
+}
+
+.menu-list ul li{
+	display: inline-block;
+	margin-left: 1.25rem;
+}
+
+.menu-list ul li a{
+	display: block;
+	font-size: 0.9333333333333333em;
+	color:#fff;
+	font-weight: 500;
+	padding:1.625rem 0;
+}
