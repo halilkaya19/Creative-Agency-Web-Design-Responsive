@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* scrollUp Style DEFAULT */ 
+#scrollUp {
+	background: #7DBA2F;
+	height: 35px;
+	width: 35px;
+	right: 50px;
+	bottom: 77px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 50%;
+	font-size: 20px;
+	line-height: 34px;
+}
+#scrollUp:hover {
+	background: #444;
+}
+ 
+#scrollUp i{
+	font-size:30px;
+} 
+
+/* Stick Menü Fixed DEFAULT */
+.sticky-fixed {
+    position: fixed;
+    top:0; left:0;
+    width: 100%;
+    transition: all 0.9s;
+}
+
+/* OWL CAROUSEL DEFAULT STYLE */
+.owl-carousel .owl-nav div {
+	background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+	height: 40px;
+	left: 20px;
+	line-height: 40px;
+	opacity: 0;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: all 0.3s ease 0s;
+	visibility: hidden;
+	width: 40px;
+}
+.owl-carousel .owl-nav div.owl-next {
+	left: auto;
+	right: 20px;
+}
+.owl-carousel:hover .owl-nav div {
+	opacity: 1;
+	visibility: visible;
+}
+.owl-carousel .owl-nav div:hover {
+	background: #2B96CC;
+	color: #fff
+}
+
+/* RESPONSİVE İNFO */
+.responsive-info{
+	position: fixed;
+	top:0;
+	right:0;
+	width:5%;
+	height:26px;
+	display: none;
+}
+
+.container-wrapper{
+	max-width:1180px;
+	margin:0 auto;
+}
+
+.grid-content{
+	display: grid;
+    grid-template-columns: repeat(3,1fr);
+	grid-gap: 1.66rem;
+}
+.border{
+	border:1px solid red;
+}
+.clear{
+	clear: both;
+}
+
+
