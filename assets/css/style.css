@@ -120,7 +120,8 @@ body{
 .header-top-menu{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
+	margin:10px 3%;
 }
 
 .logo a{
@@ -138,4 +139,22 @@ body{
 	color:#fff;
 	font-weight: 500;
 	padding:1.625rem 0;
+}
+
+.header-center-title{
+	padding: 1.875rem 0;
+	margin-left:5%;
+}
+.header-center-title span{
+	font-size:1.1333333333333333em;
+	font-weight: 400;
+	color:#fff;
+	letter-spacing: 0.1em;
+}
+
+.header-center-title h1{
+	font-size:3em;
+	font-weight: 600;
+	color:#fff;
+	margin:0.625rem 0
 }
