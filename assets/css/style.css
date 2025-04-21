@@ -141,9 +141,14 @@ body{
 	padding:1.625rem 0;
 }
 
+
+
 .header-center-title{
 	padding: 1.875rem 0;
 	margin-left:5%;
+	width:50%;
+	margin-bottom:9rem;
+	margin-top:5rem;
 }
 .header-center-title span{
 	font-size:1.1333333333333333em;
@@ -157,4 +162,32 @@ body{
 	font-weight: 600;
 	color:#fff;
 	margin:0.625rem 0
+}
+
+.header-center-title p{
+	font-size:1em;
+	font-weight: 400;
+	color:#fff;
+	margin:0.325rem 0
+}
+
+.header-center-btn{
+	display: flex;
+	justify-content: start;
+}
+
+.header-center-btn a{
+	display: block;
+	padding: 0.5rem 2.1rem;
+	text-align: center;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-ms-border-radius:10px;
+	-o-border-radius:10px;
+	color: #fff;
+	font-size: 1.122222em;
+	margin-right:1.25rem;
+	margin-top:2rem;
+	background-color: var(--purple-bg);
 }
