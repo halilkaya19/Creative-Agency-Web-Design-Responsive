@@ -305,3 +305,57 @@ body{
 	margin:1.5rem 0;
 	padding:0px 2.4rem
 }
+
+/* READ ME ABOUT US AREA */
+.readme-about{
+	background-color: #68328e;
+}
+
+.readme-about-area{
+	padding:4.5rem 0px;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.readme-about-area span{
+	display: inline-block;
+	margin:0.3rem 0;
+	font-size: 1.8em;
+	color:#a49aba;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.readme-about-area h2{
+	font-size: 2.1em;
+	color:#ffff;
+	font-weight: 700;
+	margin-top:0.4rem;
+}
+
+.readme-about-area p{
+	text-align: center;
+	font-size: 0.9em;
+	color:#fff;
+	font-weight: 400;
+	margin:1.8rem 0;
+	padding:0px 1.5rem;
+	line-height: 20px;
+	padding: 0px 2.5rem;
+}
+
+a.read-me-about-btn{
+	padding:1rem 3.1rem;
+	background-color: var(--ping-bg);
+	margin:1.5rem 0px;
+	text-align: center;
+	font-size: 0.9em;
+	color:#fff;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+}
