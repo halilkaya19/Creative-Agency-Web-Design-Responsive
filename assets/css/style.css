@@ -343,7 +343,7 @@ body{
 	margin:1.8rem 0;
 	padding:0px 1.5rem;
 	line-height: 20px;
-	padding: 0px 2.5rem;
+	padding: 0px;
 }
 
 a.read-me-about-btn{
@@ -359,3 +359,67 @@ a.read-me-about-btn{
 	-ms-border-radius: 30px;
 	-o-border-radius: 30px;
 }
+
+/* CREATİVE AREA */
+.creative-area{
+	padding: 4.5rem 0px;
+	display: flex;
+	flex-direction: row;
+	flex:1 1 auto;
+	gap: 5rem;
+}
+
+.creative-area span{
+	display: inline-block;
+	margin:0.3rem 0;
+	font-size: 1.8em;
+	color:#a49aba;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.creative-area h2{
+	font-size: 2.1em;
+	color:#000;
+	font-weight: 700;
+}
+.creative-area p{
+	text-align: center;
+	font-size: 0.9em;
+	color:#444;
+	font-weight: 400;
+	margin:1.8rem 0;
+	line-height: 20px;
+}
+
+.creative-icon-content{
+	display: flex;
+	flex-direction: row;
+	flex:1 1 auto;
+	gap: 1rem;
+}
+.creative-icon-box{
+	text-align:left;
+}
+
+.creative-icon i{
+	font-size: 3.1em;
+	color: #68328e;
+	font-weight: 700;
+}
+
+.creative-icon-box h5{	
+	margin-top: 1.1rem;
+	font-size: 1.1em;
+	color:#444;
+	font-weight: 700;
+}
+
+.creative-icon-box > p{
+	font-size: 0.9em;
+	color:#000;
+	font-weight: 400;
+	margin:1.5rem 0;
+	text-align:left;
+}
+
