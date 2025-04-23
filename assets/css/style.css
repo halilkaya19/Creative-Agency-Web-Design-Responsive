@@ -443,3 +443,53 @@ a.read-me-about-btn{
 	max-width: 100%;
 	height: auto;
 }
+
+/* TESTIMONIALS AREA */
+
+.testimonails-content{
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	flex-wrap: wrap;
+	padding: 2.2rem 0px;
+	justify-content: space-around;
+}
+
+.testimonails-content > div{
+	flex:1 1;
+}
+
+.testimonails-text{
+	padding:3.4rem 0px;
+}
+
+.testimonails-text span{
+	display: inline-block;
+	margin:0.3rem 0;
+	font-size: 1.4em;
+	color:#a49aba;
+	font-weight:700;
+	font-style: italic;
+}
+
+.testimonails-text h2{
+	font-size: 1.6em;
+	color:#000;
+	font-weight: 500;
+}
+.testimonails-text p{
+	text-align: center;
+	font-size: 0.9em;
+	color:#444;
+	font-weight: 400;
+	margin:1.3rem 0;
+	line-height:18px;
+}
+
+.testimonials-image{
+	text-align: right;
+}
+.testimonials-image > img{
+	max-width: 100%;
+	height: auto;
+}
