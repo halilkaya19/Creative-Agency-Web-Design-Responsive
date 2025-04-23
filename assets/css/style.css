@@ -423,15 +423,6 @@ a.read-me-about-btn{
 	text-align:left;
 }
 
-<<<<<<< HEAD
-/* TESTİMONİALS AREA */
-.testimonails-content{
-	padding: 2.5rem 0px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	gap: 5rem;
-=======
 
 /* BRAND LOGO AREA */
 .brand-logo-area{
@@ -451,5 +442,4 @@ a.read-me-about-btn{
 .brand-logo-flex .brand-logo > img{
 	max-width: 100%;
 	height: auto;
->>>>>>> main
 }
