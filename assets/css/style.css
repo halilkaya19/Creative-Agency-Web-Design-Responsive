@@ -423,6 +423,7 @@ a.read-me-about-btn{
 	text-align:left;
 }
 
+<<<<<<< HEAD
 /* TESTİMONİALS AREA */
 .testimonails-content{
 	padding: 2.5rem 0px;
@@ -430,4 +431,25 @@ a.read-me-about-btn{
 	flex-direction: row;
 	flex-wrap: wrap;
 	gap: 5rem;
+=======
+
+/* BRAND LOGO AREA */
+.brand-logo-area{
+	background-color: var(--purple-bg);
+	padding:4.8rem 0;
+}
+
+.brand-logo-flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.brand-logo-flex .brand-logo{
+	margin:1.4rem 1.4rem;
+}
+
+.brand-logo-flex .brand-logo > img{
+	max-width: 100%;
+	height: auto;
+>>>>>>> main
 }
