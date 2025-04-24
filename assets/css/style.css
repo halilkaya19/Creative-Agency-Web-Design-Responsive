@@ -532,7 +532,11 @@ a.read-me-about-btn{
 	color:#fff;
 	font-weight: 400;
 	margin:1.3rem 0;
-	line-height:18px;
+	line-height:25px;
+}
+
+.need-help-form{
+	margin:2rem 0px;
 }
 
 .need-help-form form{
@@ -546,6 +550,8 @@ a.read-me-about-btn{
 .need-help-form .ndh-input{
 	width: 40%;
 	height: 50px;
+	border:none;
+	outline:none;	
 	border-radius: 30px;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
@@ -564,4 +570,28 @@ a.read-me-about-btn{
 	-ms-border-radius: 30px;
 	-o-border-radius: 30px;
 	color:aliceblue;
+}
+
+/* SOCİAL AREA */	
+.social-media-wrapper{
+	background-color: var(--purple-bg);
+	padding: 4.5rem 0px;
+}
+
+.social-content{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.social-content ul{
+	width: 100%;
+}
+
+.social-content ul li{
+	display: inline-block;
+	margin-right: 12%;
 }
