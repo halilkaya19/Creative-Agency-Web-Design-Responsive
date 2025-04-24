@@ -493,3 +493,75 @@ a.read-me-about-btn{
 	max-width: 100%;
 	height: auto;
 }
+
+/* NEED HELP AREA */
+
+.need-help-area{
+	background-color: var(--ping-bg);
+}
+
+.need-help-box{
+	padding: 4.5rem 0px;
+	display: flex;	
+	flex-direction: column;
+}
+
+.need-help-text{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.need-help-box span{
+	display: inline-block;
+	margin:0.3rem 0;
+	font-size: 2.4em;
+	color:#fff;
+	font-weight:700;
+	font-style: italic;
+}
+
+.need-help-box h2{
+	font-size: 1.3em;
+	color:#fff;
+	font-weight: 500;
+}
+.need-help-box p{
+	text-align: center;
+	font-size: 0.9em;
+	color:#fff;
+	font-weight: 400;
+	margin:1.3rem 0;
+	line-height:18px;
+}
+
+.need-help-form form{
+	margin: 1.6rem 0px;
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+.need-help-form .ndh-input{
+	width: 40%;
+	height: 50px;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 0.5rem 1.5rem;
+}
+
+.need-help-form .ndh-btn{
+	width: 17%;
+	background-color: var(--purple-bg);
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	color:aliceblue;
+}
