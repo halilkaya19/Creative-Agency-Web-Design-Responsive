@@ -637,14 +637,14 @@ a.read-me-about-btn{
 .footer-right{
 	display: flex;
 	flex-wrap: wrap;
+	gap: 2rem;
 }
 
-.footer-right .footer-image > div{
-	width: 60%;
+.footer-right .footer-image{
+	width: 47%;
 	border:1px solid red;
 }
 
-.footer-right div > img{
-	max-width: 100%;
-	height: auto;
-}
+.footer-right .footer-image > img{
+
+}	
