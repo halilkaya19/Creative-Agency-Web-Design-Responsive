@@ -180,26 +180,26 @@ body{
 }
 
 .header-center-btn a{
-	display: block;
-	padding: 0.9rem 2.7rem;
-	text-align: center;
-	border-radius:40px;
-	-webkit-border-radius:40px;
-	-moz-border-radius:40px;
-	-ms-border-radius:40px;
-	-o-border-radius:40px;
-	color: #fff;
-	font-size: 0.9em;
-	margin-right:1.25rem;
-	margin-top:2.2rem;
-	background-color: var(--purple-bg);
+  display: block;
+  padding: 0.9rem 2.7rem;
+  text-align: center;
+  border-radius:40px;
+  -webkit-border-radius:40px;
+  -moz-border-radius:40px;
+  -ms-border-radius:40px;
+  -o-border-radius:40px;
+  color: #fff;
+  font-size: 0.9em;
+  margin-right:1.25rem;
+  margin-top:2.2rem;
+  background-color: var(--purple-bg);
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  -moz-transition: background 300ms ease-in-out;
+  -ms-transition: background 300ms ease-in-out;
+  -o-transition: background 300ms ease-in-out;
 }
 
-.slider-image{
-	position: absolute;
-	right: 40px;
-	top: 6.2%;
-}
 
 .slider-image img{
 	scale: 0.7;
