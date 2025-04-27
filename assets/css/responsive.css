@@ -72,5 +72,133 @@
 		color:#fff;
 	}
 
+	/* HEADER AREA */
+	.header-area{
+		background-image: url(../img/header-bg.png);
+		background-position: center;
+		background-size: cover;	
+		padding:1.20rem 0px;
+	}
+	
+	
+	
+	.menu-list ul li{
+		display: inline-block;
+		margin-left: 1.8rem;
+	}
+
+
+
+	.header-center-title{
+		padding: 1.475rem 0;
+		margin-left:5%;
+		width:50%;
+		margin-bottom:9rem;
+		margin-top:5rem;
+	}
+
+	.header-center-title span{
+		font-size:1.1223333333333333em;
+		font-weight: 400;
+		color:#fff;
+		letter-spacing: 0.2em;
+	}
+	
+	.header-center-title h1{
+		font-size:2.5em;
+		font-weight: 600;
+		color:#fff;
+		margin:0.605rem 0;
+		line-height: 48px;
+	}
+	
+	.header-center-title p{
+		font-size:0.8em;
+		font-weight:400;
+		color:#fff;
+		margin:1.3rem 0;
+		font-style: italic;
+	}
+	
+
+	.header-center-btn a{
+	  display: block;
+	  padding: 0.5rem 1.8rem;
+	  text-align: center;
+	  color: #fff;
+	  font-size: 0.8em;
+	  margin-right:1.15rem;
+	  margin-top:1.7rem;
+	}
+	
+	
+	.slider-image{
+		position: absolute;
+		right: 0;
+		top: 4.5%;
+	}
+	
+	.slider-image img{
+		scale: 0.6;
+	}
+	
+	/* ABOUT US */
+
+	.about-us-text{
+		flex-basis: 60%;
+		padding-right:5rem;
+	}
+
+	.about-us-text span{
+		font-size: 1em;
+		font-weight: 300;
+		color:grey;
+		font-style: oblique;
+		padding-bottom: 1.4rem;
+	}
+
+	.about-us-text h2{
+		font-size: 2.11em;
+		font-weight: 600;
+		color:#000;
+		text-transform: uppercase;
+		padding:0.7rem 0;
+	}
+
+	.about-us-text p{
+		font-size: 0.9em;
+		font-weight:400;
+		color:#444;
+		padding:1rem 0;
+		line-height: 1.5em;
+		font-size: 0.9em;
+	}
+
+	.about-us-image img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	.about-us-btn{
+		display: inline-block;
+		margin:1.6rem 0px;
+		padding:0.8rem 2.4rem;
+		background-color: var(--ping-bg);
+		color:#fff;
+		font-size: 0.8em;
+		text-align: center;
+		border-radius: 14px;
+		-webkit-border-radius: 14px;
+		-moz-border-radius: 14px;
+		-ms-border-radius: 14px;
+		-o-border-radius: 14px;
+		transition: .3s;
+	}
+
+	.about-us-btn:hover{
+		box-shadow: 8px 8px #99bdff;
+		transition: .3s;
+	}
+
 
 }
