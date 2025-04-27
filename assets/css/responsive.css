@@ -214,6 +214,46 @@
 			padding:0px 1.9rem
 		}
 
+
+
+		/* READ ME ABOUT US AREA */
+
+		.readme-about-area{
+			padding:3.1rem 0px;
+		}
+
+		.readme-about-area span{
+			margin:0.4rem 0;
+			font-size: 1.5em;
+		}
+
+		.readme-about-area h2{
+			font-size: 1.7em;
+			margin-top:0.6rem;
+		}
+
+		.readme-about-area p{
+			text-align: center;
+			font-size: 0.7em;
+			margin:1.5rem 0;
+			padding:0px 1.3rem;
+			line-height: 17px;
+			padding: 0px;
+		}
+
+		a.read-me-about-btn{
+			padding:0.9rem 2.5rem;
+			background-color: var(--ping-bg);
+			margin:1.1rem 0px;
+			text-align: center;
+			font-size: 0.7em;
+		}
+
+		a.read-me-about-btn:hover{
+			box-shadow: 8px 8px #99bdff;
+			transition: .3s;
+		}
+
 	
 }
 
