@@ -57,21 +57,6 @@
 	}
 
 
-	
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-	/* XLG */
-	.responsive-info{
-		display:block;
-		background-color:red;
-	}
-	.responsive-info::after{
-		content: "----XL---" ;
-		color:#fff;
-	}
-
 	/* HEADER AREA */
 	.header-area{
 		background-image: url(../img/header-bg.png);
@@ -81,19 +66,20 @@
 	}
 	
 	
-	
 	.menu-list ul li{
 		display: inline-block;
-		margin-left: 1.8rem;
+		margin-left: 1.1rem;
 	}
 
-
+	.menu-list ul li a{
+		font-size: 0.83333333333333em;
+	}
 
 	.header-center-title{
-		padding: 1.475rem 0;
-		margin-left:5%;
+		padding: 1.345rem 0;
+		margin-left:6%;
 		width:50%;
-		margin-bottom:9rem;
+		margin-bottom:7rem;
 		margin-top:5rem;
 	}
 
@@ -105,7 +91,7 @@
 	}
 	
 	.header-center-title h1{
-		font-size:2.5em;
+		font-size:2.3em;
 		font-weight: 600;
 		color:#fff;
 		margin:0.605rem 0;
@@ -126,7 +112,7 @@
 	  padding: 0.5rem 1.8rem;
 	  text-align: center;
 	  color: #fff;
-	  font-size: 0.8em;
+	  font-size: 0.9em;
 	  margin-right:1.15rem;
 	  margin-top:1.7rem;
 	}
@@ -135,11 +121,11 @@
 	.slider-image{
 		position: absolute;
 		right: 0;
-		top: 4.5%;
+		top: 4.7%;
 	}
 	
 	.slider-image img{
-		scale: 0.6;
+		scale: 0.5;
 	}
 	
 	/* ABOUT US */
@@ -200,5 +186,20 @@
 		transition: .3s;
 	}
 
+
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	/* XLG */
+	.responsive-info{
+		display:block;
+		background-color:red;
+	}
+	.responsive-info::after{
+		content: "----XL---" ;
+		color:#fff;
+	}
 
 }
