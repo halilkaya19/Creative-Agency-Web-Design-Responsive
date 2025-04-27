@@ -56,6 +56,10 @@
 		color:#fff;
 	}
 
+	.container-wrapper{
+		margin:0 10%;
+	}
+
 
 	/* HEADER AREA */
 	.header-area{
@@ -178,6 +182,37 @@
 		transition: .3s;
 	}
 
+
+	
+		/* OUR ARCHİVES */
+		.our-archiments{
+			padding: 3rem 0;
+		}
+		
+
+		.our-ach-icons{
+		margin:0.8rem 0;
+		}
+
+		.our-ach-icons i{
+		font-size: 2.3em;
+		}
+
+		.our-arch-box span{
+		display: inline-block;
+		margin:0.2rem 0;
+		font-size: 1.8em;
+		}
+
+		.our-arch-box h5{
+		font-size: 0.9em;
+		}
+
+		.our-arch-box p{
+			font-size: 0.8em;
+			margin:1.2rem 0;
+			padding:0px 1.9rem
+		}
 
 	
 }
