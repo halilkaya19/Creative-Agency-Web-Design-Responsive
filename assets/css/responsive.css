@@ -52,7 +52,7 @@
 		background-color:blue;
 	}
 	.responsive-info::after{
-		content: "----LG---" ;
+		content: "---LG--" ;
 		color:#fff;
 	}
 
@@ -131,33 +131,25 @@
 	/* ABOUT US */
 
 	.about-us-text{
-		flex-basis: 60%;
+		flex-basis: 50%;
 		padding-right:5rem;
 	}
 
 	.about-us-text span{
-		font-size: 1em;
-		font-weight: 300;
-		color:grey;
-		font-style: oblique;
-		padding-bottom: 1.4rem;
+		font-size: 0.9em;
+		padding-bottom: 1.3rem;
 	}
 
 	.about-us-text h2{
-		font-size: 2.11em;
-		font-weight: 600;
-		color:#000;
-		text-transform: uppercase;
-		padding:0.7rem 0;
+		font-size: 2em;
+		padding:0.6rem 0.1rem;
 	}
 
 	.about-us-text p{
-		font-size: 0.9em;
-		font-weight:400;
-		color:#444;
+		font-size: 0.8em;
 		padding:1rem 0;
-		line-height: 1.5em;
-		font-size: 0.9em;
+		line-height: 1.4em;
+		font-size: 0.8em;
 	}
 
 	.about-us-image img{
