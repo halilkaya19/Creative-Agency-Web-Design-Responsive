@@ -308,6 +308,44 @@
 			margin:1.3rem 0;
 		}
 
+
+		/* TESTIMONIALS AREA */
+
+		.testimonails-content{
+			gap: 0.9rem;
+			flex-wrap: wrap;
+			padding: 1.8rem 0px;
+		}
+
+	
+
+		.testimonails-text{
+			padding:2.8rem 0px;
+		}
+
+		.testimonails-text span{
+			margin:0.4rem 0;
+			font-size: 1.2em;
+		}
+
+		.testimonails-text h2{
+			font-size: 1.4em;
+		}
+		.testimonails-text p{
+			text-align:left;
+			font-size: 1em;
+			margin:1.1rem 0;
+			line-height:20px;
+		}
+
+		.testimonials-image{
+			text-align: right;
+		}
+		.testimonials-image > img{
+			width: 100%;
+			height: auto;
+		}
+
 	
 }
 
