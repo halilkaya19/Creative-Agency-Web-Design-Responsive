@@ -9,6 +9,10 @@
 			content: "XS" ;
 			color:#fff;
 		}
+
+		.container-wrapper{
+			margin:0 3%;
+		}
 		
 }
 
@@ -22,6 +26,10 @@
 		.responsive-info::after{
 			content: "SM" ;
 			color:#fff;
+		}
+
+		.container-wrapper{
+			margin:0 4%;
 		}
 }
 
@@ -37,11 +45,12 @@
 		content: "-MD-" ;
 		color:#fff;
 	}
-	
-	
-	
-	
-	
+
+	.container-wrapper{
+		margin:0 5%;
+	}
+
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -312,6 +321,10 @@
 	.responsive-info::after{
 		content: "----XL---" ;
 		color:#fff;
+	}
+
+	.container-wrapper{
+		margin:0 7%;
 	}
 
 }
