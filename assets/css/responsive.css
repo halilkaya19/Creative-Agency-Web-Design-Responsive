@@ -51,6 +51,102 @@
 	}
 
 
+	.header-area{
+		background-position: center;
+		background-size: cover;	
+		padding:0.6rem 0px;
+		clear: both;
+		border:5px solid green; 
+		min-height: 300px;
+		
+	}
+	
+	.header-top-menu{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin:0px 10%;
+		align-items: center;
+	}
+	
+	.logo a{
+		display: block;
+	}
+	
+	.menu-list{
+		display:none;
+	}
+	
+	.header-center-area{
+		padding: 1rem 0px;
+		text-align:left;
+		border:6px solid red;
+		position: relative!important;
+	}
+
+	.slider-image{
+		position: absolute;
+		right:0%;
+		top:0%;
+		border:1px solid green;
+	}
+	
+	.slider-image > img{
+		max-width: 100%;
+		height: auto;
+		scale: 1!important;
+		border:1px solid red;
+	}
+
+
+
+	.header-center-title{
+		padding:0.3rem 0rem!important;
+		width:50%;
+		margin-bottom:2rem;
+		margin-top:1rem;
+		border:1px solid red;
+	}
+
+	.header-center-title span{
+		font-size:0.9;
+		letter-spacing: 0.1em;
+	}
+	
+	.header-center-title h1{
+		font-size:1.8em;
+		margin:0.425rem 0;
+		line-height: 46px;
+	}
+	
+	.header-center-title p{
+		font-size:0.7em;
+		margin:1.2rem 0;
+	}
+	
+	.header-center-btn{
+		display: flex;
+		justify-content: start;
+	}
+	
+	.header-center-btn a{
+	  display: block;
+	  padding: 0.7rem 1.7rem;
+	  font-size: 0.7em;
+	  margin-right:1.1rem;
+	  margin-top:1.5rem;
+	}
+	
+	.header-center-btn a:hover{
+		background-position: 100%;
+		color: #000;
+	}
+	
+	
+	
+
+
+
 }
 
 /* Large devices (desktops, 992px and up) */
